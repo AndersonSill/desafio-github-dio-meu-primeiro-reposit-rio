@@ -1,0 +1,119 @@
+Mão na massa
+
+1- Criar repositório dentro do github
+2- Fazer edições e alterações
+3- Realizar o commit dentro do GitHub (commitar) pra salvar as alterações
+4- Clonar pra salvar em meu computador, pra isso e necessário criar 
+uma pasta dentro do meu computador,
+
+Ex: 
+Este computador > Documents > Dev > Git > DIO
+
+5- No GitHub na opção "<>Code" escolher a opção "HTTPS" e copiar o link do diretório
+
+6- Abrir o Git Bash e digitar os comando e colar o link do diretório pra realizar 
+a clonegem.
+
+Ex:
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO
+$ git clone https://github.com/AndersonSill/desafio-github-dio-meu-primeiro-reposit-rio.git
+
+# Comandos para entrar dendro do repositorio:
+
+Ex:
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO
+$ cd desafio-github-dio-meu-primeiro-reposit-rio
+
+## Pra checar se está tudo correto digitar os comands abaixo:
+
+Ex:
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO
+$ git status
+
+7- Cria pasta dentro do repositorio local, com informações úteis, links entre outros
+arquivos necessário.
+
+8- Lenvando as informações da maquina local para o servifor remoto do GitHub
+
+Comentário:
+Se dermos o comando "git status" ele já reconhe que tem uma pasta nova 
+
+Ex:
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Desafio de projeto GitGithub/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Conclusão:
+A pasta foi identificada
+
+9- Como fazer para o Github ender que queremos enviar essa pasta do servidor local
+para o Github
+
+# Usar o git add . ou git add -a pra selecionar todos os arquivos
+
+
+Ex:
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO/desafio-github-dio-meu-primeiro-reposit-rio (main)
+$ git add .
+
+git status pra checar se esta tudo selecionado
+
+Ex:
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO/desafio-github-dio-meu-primeiro-reposit-rio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Desafio de projeto GitGithub/Criando meu primeiro reposit\303\263r
+io do Desafio de Projeto sobre GitGithub da DIO aos 47 anos de idade..txt"
+
+10- Ainda não está no repositório da Github, e pra enviar precisa ainda
+realizar algumas acões 
+
+# Criar o commit local
+
+Ex: 
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO/desafio-github-dio-meu-primeiro-reposit-rio (main)
+$ git commit -m "Inclusão das anotações do desafio de projeto sobre Git/Github da DIO"
+[main f130f71] Inclusão das anotações do desafio de projeto sobre Git/Github da DIO
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "Desafio de projeto GitGithub/Criando meu primeiro reposit\303\263r
+io do Desafio de Projeto sobre GitGithub da DIO aos 47 anos de idade..txt"
+
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO/desafio-github-dio-meu-primeiro-reposit-rio (main)
+ 
+## E pra mandar pra nuvem e precisa realizar um push
+
+Ex:
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO/desafio-github-dio-meu-primeiro-reposit-rio (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 491 bytes | 491.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/AndersonSill/desafio-github-dio-meu-primeiro-reposit-rio.git
+   8dfc2ba..f130f71  main -> main
+
+Anderson Sill@DESKTOP-QQ7DM8H MINGW64 ~/Documents/Dev/Git/DIO/desafio-github-dio-meu-primeiro-reposit-rio (main)
+$
+
+
+11- Conclusão: 
+Dar um F5 no Github pra atualizar a página e ver se está tudo correto e todas as ações
+menciunadas aqui funcionaram.
+
+ 
+
+
+
