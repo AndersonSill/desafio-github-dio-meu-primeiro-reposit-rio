@@ -111,7 +111,7 @@ $
 
 11- Conclusão: 
 Dar um F5 no Github pra atualizar a página e ver se está tudo correto e todas as ações
-menciunadas aqui funcionaram.
+mencionadas aqui funcionaram.
 
  
 
